@@ -1,0 +1,50 @@
+.main-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+    background: rgb(88, 206, 241);
+}
+
+.slider-body{
+    user-select: none;
+}
+.image-container{
+    margin: 0 200px;
+}
+.fa.arrow{
+    font-size: 30px;
+}
+.fa.arrow:hover{
+    cursor: pointer;
+    opacity: 0.3;
+}
+img{
+width: 170px;
+height: 170px;
+}
+
+.circles{
+    margin-top: 3px;
+    text-align: center;
+}
+.circle{
+    display: inline-block;
+    margin: 3px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgb(79, 132, 245);
+}
+.circle:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+.active{
+    background: #f00;
+}
+/* .loader-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
